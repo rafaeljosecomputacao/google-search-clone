@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Google Search Clone</title>
+  <link rel="shortcut icon" href="img/favicon.ico">
+  <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <div id="input-box">
+      <img src="img/google.png" alt="Google Logo">
+      <form>
+        <input type="text" name="search" value="Alan Turing" placeholder="Try searching here">
+        <span class="lnr lnr-cross" id="cross-icon"></span>
+        <p id="separator"></p>
+        <span class="lnr lnr-keyboard" id="keyboard-icon"></span>
+        <span class="lnr lnr-mic" id="mic-icon"></span>
+        <span class="lnr lnr-magnifier" id="search-icon"></span>       
+      </form>
+    </div>
+    <nav>
+      <ul id="links-list">
+        <li class="active-link"><a href="#"><span class="lnr lnr-magnifier"></span> All</a></li>
+        <li><a href="#"><span class="lnr lnr-picture"></span> Images</a></li>
+        <li><a href="#"><span class="lnr lnr-book"></span> Books</a></li>
+        <li><a href="#"><span class="lnr lnr-film-play"></span> Videos</a></li>
+        <li><a href="#"><span class="lnr lnr-license"></span> News</a></li>
+        <li><a href="#"><span class="lnr lnr-menu"></span> More</a></li>
+        <li class="tools"><a href="#">Tools</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="container">
+    <main>
+      <p id="results">About 15,400,000 results (0.31 seconds)</p>
+      <div class="search-result-box">
+        <a class="ref-link" href="#">https://en.wikipedia.org › wiki › Alan_Turing <span class="triangle"></span></a>
+        <a class="main-link" href="#">Alan Turing - Wikipedia, the free encyclopedia</a>
+        <p class="search-result-desc">
+          <strong>Alan Turing</strong> was an English mathematician, computer scientist ; Born in Maida
+          Vale ; After the war, Turing worked at the National Physical Laboratory, where he designed
+          the Automatic Computing Engine, one of the first designs ...
+        </p>
+        <div class="info-box">
+          <p class="info"><span class="info-title">Name:</span> Alan Mathison Turing</p>
+          <p class="info"><span class="info-title">Siblings:</span> John Turing</p>
+          <p class="info"><span class="info-title">Education:</span> Sherborne School</p>
+          <p class="info"><span class="info-title">Alma mater:</span>	University of Cambridge</p>
+        </div>
+        <div class="related-results">
+          <ul>
+            <li><a href="#">Turing machine &#183;</a></li>
+            <li><a href="#">Legacy of Alan Turing &#183;</a></li>
+            <li><a href="#">Turing law &#183;</a></li>
+            <li><a href="#">Puzzle</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="search-result-box">
+        <a class="ref-link" href="#">https://www.britannica.com › Science › Mathematics <span class="triangle"></span></a>
+        <a class="main-link" href="#">Alan Turing | Biography, Facts, Computer - Britannica</a>
+        <p class="search-result-desc">
+          Sep 5, 2023 - <strong>Alan Turing</strong> was a British mathematician and logician, a major
+          contributor to mathematics, cryptanalysis, computer science, and artificial ...
+        </p>
+      </div>
+      <div class="search-result-box">
+        <a class="ref-link" href="#">https://www.biography.com › scientists › alan-turing <span class="triangle"></span></a>
+        <a class="main-link" href="#">Alan Turing - Education, Movie & Quotes</a>
+        <p class="search-result-desc">
+          <strong>Alan Turing</strong> was a brilliant British mathematician who took a leading role
+          in breaking Nazi ciphers during WWII. In his seminal 1936 paper, he proved that ...
+        </p>
+      </div>
+    </main>
+    <aside>
+      <div id="gallery-box">
+          <img id="first-img" src="img/turing1.jpg" alt="Alan Turing">
+          <div id="gallery">
+            <div id="gallery-img1"></div>
+            <div id="gallery-img2"></div>
+            <div id="gallery-img3"></div>
+            <div id="gallery-img4"></div>
+            <div id="gallery-img5"></div>
+            <div id="gallery-img6"></div>
+          </div>
+          <a id="more-image" href="#"><span class="lnr lnr-picture"> </span>More images</a>
+      </div>
+      <div id="about-box">
+          <div id="name-box">
+            <h3 id="name">Alan Turing</h3>
+            <p id="role">Mathematician</p>
+          </div>
+          <p class="about-text">
+            Alan Mathison Turing was an English mathematician, computer scientist, logician, 
+            cryptanalyst, philosopher and theoretical biologist. He is widely considered
+            to be the father of theoretical computer science and artificial intelligence.
+            <a href="#"> Wikipedia</a>
+          </p>
+          <p class="about-text">
+            <span>Born:</span> June 23, 1912, Maida Vale, London, United Kingdom
+          </p>
+          <p class="about-text">
+            <span>Died:</span> June 7, 1954, Wilmslow, United Kingdom
+          </p> 
+       </div>
+    </aside>
+  </div>
+</body>
+</html>
